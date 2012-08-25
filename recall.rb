@@ -24,6 +24,9 @@ get '/' do
   erb :home
 
 end
+get '/hello' do
+  "test"
+end
 
 post '/' do
   notes = DB[:notes]

@@ -27,6 +27,9 @@ end
 get '/hello' do
   "test"
 end
+get '/hello2' do
+  "test 2"
+end
 
 post '/' do
   notes = DB[:notes]
